@@ -1,33 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="209" height="54" viewBox="0 0 209 54">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="225" viewBox="0 0 800 225">
   <defs>
     <style>
       .cls-1 {
-        fill: #2584ff;
-        stroke: #2584ff;
-      }
-
-      .cls-1, .cls-2 {
+        stroke: #c41c5b;
         stroke-linecap: round;
         stroke-linejoin: round;
-        stroke-width: 10px;
+        stroke-width: 83.333px;
         fill-rule: evenodd;
+        fill: url(#linear-gradient);
       }
 
       .cls-2 {
-        fill: #ff3400;
-        stroke: #ff3400;
-        mix-blend-mode: lighten;
-      }
-
-      .cls-3 {
-        font-size: 32.498px;
-        fill: #fff;
-        font-family: Inter;
-        font-weight: 700;
+        font-size: 100px;
+        fill: #f4eeee;
+        font-family: Montserrat;
+        font-weight: 600;
       }
     </style>
+    <linearGradient id="linear-gradient" x1="133" y1="182" x2="133" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
   </defs>
-  <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-1" d="M43.851,29.7L24.244,39.2,32.037,14.02Z"/>
-  <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-2" d="M37.033,29.7L56.64,39.2,48.847,14.02Z"/>
-  <text id="Moshify" class="cls-3" transform="translate(71.466 35.437) scale(0.923)">Moshify</text>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <path class="cls-1" d="M133,65c35.9,0,65,26.191,65,58.5S168.9,182,133,182s-65-26.191-65-58.5S97.1,65,133,65Z"/>
+    <text id="md_christien" data-name="md christien" class="cls-2" x="148" y="141.875">md christien</text>
+  </g>
 </svg>

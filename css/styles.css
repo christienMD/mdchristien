@@ -1,7 +1,8 @@
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
+  /* --color-accent: #ff3400; */
+  --color-accent: #c41c5b;
   --color-headings: #1b0760;
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
@@ -239,7 +240,8 @@ a {
 }
 
 .btn--accent:hover {
-  background: #ec3000;
+  background: #883756;
+  /* background: #ec3000; */
 }
 
 .btn--outline {
@@ -632,7 +634,10 @@ a {
 
 .block--skewed-right {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
+  padding-top: calc(var(--padding-vertical) + 12rem);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  /* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%); */
+  
 }
 
 .block--skewed-left {
@@ -690,6 +695,10 @@ a {
 .nav__brand {
   transform: translateY(5px);
   /* width: 150px; */
+}
+
+.nav__brand img {
+  height: 4.8rem;
 }
 
 @media screen and (min-width: 768px) {
